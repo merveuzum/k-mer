@@ -17,7 +17,7 @@ for a in base:
 print(two_mer)
 
 #3-mer
-for a in base:k
+for a in base:
     base1 = a
     for b in base:
         base2 = base1 + b
