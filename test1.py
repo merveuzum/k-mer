@@ -24,4 +24,4 @@ for a in s:
             n3 = n2 + c
             for d in s:
                 l.append(n3+d)
-print(l)
+print(m)
