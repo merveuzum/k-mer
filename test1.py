@@ -71,7 +71,7 @@ for i in two_mer:
          if sequence[x] + sequence[x + 1] == i:
             count += 1
     print(i, count)
-print(' ') #karışıklığı önlemek için 1 satır boşluk koyduk
+print(' ')
 
 #three_mer
 for i in three_mer:
