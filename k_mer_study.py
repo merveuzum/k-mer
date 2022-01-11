@@ -72,6 +72,7 @@ for i in two_mer:
          if sequence[x] + sequence[x + 1] == i:
             count += 1
     print(i, count)
+    #print(count)
 print(' ')
 
 #three_mer
@@ -81,6 +82,7 @@ for i in three_mer:
          if sequence[x] + sequence[x + 1] + sequence[x + 2]== i:
             count += 1
     print(i, count)
+    #print(count)
 print(' ')
 
 #four_mer
@@ -90,6 +92,7 @@ for i in four_mer:
          if sequence[x] + sequence[x + 1] + sequence[x + 2] + sequence[x + 3]== i:
             count += 1
     print(i, count)
+    #print(count)
 print(' ')
 
 #five_mer
@@ -99,6 +102,7 @@ for i in five_mer:
          if sequence[x] + sequence[x + 1] + sequence[x + 2] + sequence[x + 3] + sequence[x + 4]== i:
             count += 1
     print(i, count)
+    #print(count)
 
 
 
