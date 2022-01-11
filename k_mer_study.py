@@ -64,6 +64,7 @@ for a in base:
                         six_mer.append(base5 + g)
 print(six_mer)
 
+#
 #two_mer
 for i in two_mer:
     count = 0
